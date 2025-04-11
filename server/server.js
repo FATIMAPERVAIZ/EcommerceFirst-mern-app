@@ -19,7 +19,7 @@ const app = express();
 
 //middelwares
 app.use(cors( {
-        origin: ["https://ecommerce-first-mern-frontend.vercel.app"],
+        origin: ["https://ecommerce-first-mern-frontend.vercel.app", "http://localhost:3000"],
         methods: ["POST", "GET","PUT","DELETE"],
         credentials: true
     }));
